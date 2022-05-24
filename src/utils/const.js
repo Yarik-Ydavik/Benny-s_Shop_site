@@ -1,0 +1,5 @@
+export const GLAVNAYA = '/glavnaya'
+export const TORGOVI_ZAL = '/torgovi_zal'
+export const ASSORTIMENT = '/assortiment'
+export const ADDRES = '/adres'
+export const SHOP_ROUTE = '/'

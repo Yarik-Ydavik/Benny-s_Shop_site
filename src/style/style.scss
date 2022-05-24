@@ -1,0 +1,283 @@
+.image-back{
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+    background-image: url(../img/background.png);
+}
+.HEAD{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 10%;
+    .head{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        font-size: x-large;
+        .text1{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: right;
+            margin-top: 8%;
+            margin-left: 30px;
+            color: white;
+            width: 200px;
+            height: 10%;
+            a{
+                background: none;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: gold;
+            }
+            cursor: pointer;
+            a:focus{
+                color: gold;
+                cursor: pointer;
+                font-size: x-large;
+                background: url('../img/underline_2.png');
+            }
+        }
+        .text2{
+            font-family: 'Times New Roman', Times, serif;
+            text-align: left;
+            margin-top: 8%;
+            margin-right: 25%;
+            margin-left: 3%;
+            color: white;
+            width: 200px;
+            height: 10%;
+            cursor: pointer;
+            a{
+                background: none;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: gold;
+            }
+            a:focus{
+                color: gold;
+                cursor: pointer;
+                font-size: x-large;
+                background: url('../img/underline_2.png');
+            }
+        }
+        .text3{
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 8%;
+            margin-left: 8%;
+            margin-right: 2%;
+            text-align: right;
+            color: white;
+            width: 200px;
+            height: 10%;
+            cursor: pointer;
+            a{
+                background: none;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: gold;
+            }
+            a:focus{
+                color: gold;
+                cursor: pointer;
+                font-size: x-large;
+                background: url('../img/underline_2.png');
+            }
+        }
+        .text4{
+            font-family: 'Times New Roman', Times, serif;
+            margin-top: 8%;
+            color: white;
+            width: 200px;
+            height: 10%;
+            cursor: pointer;
+            a{
+                background: none;
+                text-decoration: none;
+                color: white;
+            }
+            a:hover{
+                color: gold;
+            }
+            a:focus{
+                color: gold;
+                font-size: x-large;
+                background: url('../img/underline_2.png');
+            }
+           
+            
+        }
+        @media (max-width: 607px) {
+            .text1{
+                font-size: 60%;
+            }
+            .text2{
+                font-size: 60%;
+            }
+            .text3{
+                font-size: 60%;
+            }
+            .text4{
+                font-size: 60%; 
+            }
+        }
+        @media (min-width: 607px) {
+            .text1{
+                font-size: 80%;
+            }
+            .text2{
+                font-size: 80%;
+            }
+            .text3{
+                font-size: 80%;
+            }
+            .text4{
+                font-size: 80%; 
+            }
+        }
+        
+    }
+}
+.image{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+}
+.adr-fo{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.adr-button{
+    position: absolute;
+    z-index: 2;
+    margin-top: 42%;
+    margin-left: 7.5%;
+    width: 80%;
+    height: 30%;
+    button{
+        height: 100%;
+        font-size: 100%;
+        border: none;
+        width: 18%;
+    }
+    :hover{
+        background-color: azure;
+    }
+    :active{
+        background-color: azure;
+    }
+}
+@media (max-width: 595px){
+    .adr-button{
+        position: absolute;
+        z-index: 2;
+        margin-top: 42%;
+        margin-left: 7.5%;
+        width: 80%;
+        height: 4%;
+        button{
+            height: 60%;
+            font-size: 50%;
+            border: none;
+            width: 18%;
+        }
+        :hover{
+            background-color: azure;
+        }
+        :active{
+            background-color: azure;
+        }
+    }
+}
+@media (min-width: 595px){
+    .adr-button{
+        position: absolute;
+        z-index: 2;
+        margin-top: 43%;
+        margin-left: 7.5%;
+        width: 80%;
+        height: 3%;
+        button{
+            height: 60%;
+            font-size: 50%;
+            border: none;
+            width: 18%;
+        }
+        :hover{
+            background-color: azure;
+        }
+        :active{
+            background-color: azure;
+        }
+    }
+}
+@media (min-width: 717px){
+    .adr-button{
+        position: absolute;
+        z-index: 2;
+        margin-top: 43%;
+        margin-left: 7.5%;
+        width: 80%;
+        height: 3%;
+        button{
+            height: 100%;
+            font-size: 60%;
+            border: none;
+            width: 18%;
+            
+        }
+        :hover{
+            background-color: azure;
+        }
+        :active{
+            background-color: azure;
+        }
+    }
+}
+@media (min-width: 883px){
+    .adr-button{
+        position: absolute;
+        z-index: 2;
+        margin-top: 43%;
+        margin-left: 7.5%;
+        width: 80%;
+        height: 4%;
+        button{
+            height: 100%;
+            font-size: 80%;
+            border: none;
+            width: 18%;
+
+        }
+        :hover{
+            background-color: azure;
+        }
+        :active{
+            background-color: azure;
+        }
+    }
+}
+@media (min-width: 1321px){
+    .adr-button{
+        position: absolute;
+        margin-left: 7.5%;
+        width: 80%;
+        height: 7%;
+        button{
+            height: 100%;
+            font-size: 80%;
+            border: none;
+            width: 18%;
+        }
+    }
+}
+
+

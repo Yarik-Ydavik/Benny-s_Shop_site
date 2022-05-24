@@ -1,0 +1,375 @@
+@font-face {
+    font-family: 'SignPainter_HouseScript';
+    src: url('../fonts/SignPainterHouseScript.woff2') format('woff2'),
+        url('../fonts/SignPainterHouseScript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.parent {
+    height: 100%;
+    font-family: 'SignPainter_HouseScript';
+    font-weight: 550;
+    width: 70%;
+    background: black;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+.cars{
+    font-size: x-large;
+    width: 100%;
+    font-family: 'SignPainter_HouseScript';
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2%;
+    .car{
+        width: 27.2%;
+        background-color: aliceblue;
+        padding: 2%; 
+        margin: 1%;
+        img{
+            width: 100%;
+        }
+        .INFO{
+            display: flex;
+
+            justify-content: space-between;
+            .name{
+                width: 60%;
+                font-size: 100%;
+                margin-top: 5px;
+            }
+            .Price{
+                width: 40%;
+                font-size: 100%;
+                margin-top: 5px;
+                text-align: right;
+            }
+            @media (max-width: 607px) {
+                .name{
+                    width: 60%;
+                    font-size: 70%;
+                    margin-top: 5px;
+                }
+                .Price{
+                    width: 70%;
+                    font-size: 75%;
+                    margin-top: 5px;
+                    text-align: right;
+                }
+            }
+            
+            
+        }
+        
+    }
+}
+.body-as{
+
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+}
+.body-as_carINFO{
+
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    .parent_carINFO {
+        font-family: 'SignPainter_HouseScript';
+        font-weight: 550;
+        width: 60%;
+        background-color: black;
+        margin-right: auto;
+        margin-left: auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 400;
+        .children_carINFO {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            justify-content: space-between;
+            color: aliceblue;
+            padding: 2%;
+            img{
+                width: 100%;
+                margin-bottom: 2%;
+            }
+            .mashine-name{
+                margin-bottom: 2%;
+                font-size: 130%;
+                color: gold;
+            }
+            .mashine-price{
+                color: gold;
+                font-size: 130%;
+            }
+        }
+        .ru{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            .children_carINFO1{
+                color: aliceblue;
+                width: 90%;
+                font-size: 100%;
+                padding-right: 2%;
+                padding-left: 2%;
+                font-size: large;
+
+                .XARAKTERISTIKI{
+                    margin-top: 10%;
+                    .XARAKTERISTIKI-item{
+                        display: flex;
+                        justify-content: space-between;
+                        margin-top: 2%;
+                    }
+                }
+            }
+            
+            .children_carINFO2{
+                color: aliceblue;
+                width: 90%;
+                font-size: 100%;
+                padding-right: 2%;
+                padding-left: 2%;
+                text-align: center;
+                .children_carINFO_SALES{
+                    text-align: left;
+                }
+                
+                hr{
+                    background-color: gray;
+                    width: 100%;
+                    height: 1px;
+                    
+                }
+                ul{
+                    width: 100%;
+                    margin-left: 0;
+                    padding-left: 0;
+                    display: flex;
+                    flex-wrap: wrap;
+                    li{
+                        list-style-type: none;
+                        
+                        img{
+                            width: 70%;
+                        }
+                        
+                    }
+                    @media (max-width: 562px) {
+                        li{
+                            width: 50%;
+                            img{
+                                width: 50%;
+                            }
+                        }
+                        
+                    }
+                    :hover{
+                        cursor: pointer;
+                        img{
+                            border: 1px solid gray;
+                        }
+                        
+                    }
+                    :active{
+                        cursor: pointer;
+                        img{
+                            border: 1px solid gray;
+                        }
+                        
+                    }
+                }
+                .children_carINFO3 {
+                    display: flex;
+                    flex-wrap: wrap;
+                    align-items: flex-start;
+                    justify-content: left;
+                    color: aliceblue;
+                    padding: 2%;
+                    cursor: pointer;
+                    .mashine-price3{
+                        color: gold;
+                        font-size: 130%; 
+                    }
+                    .q{
+                        font-size: 130%;
+                    }
+                    
+                }
+                .children_carINFO_opisanye{
+                    color: aliceblue;
+                    width: 90%;
+                    padding-right: 2%;
+                    padding-left: 2%;
+                    font-size: x-large;
+                }
+                
+            }
+            
+        }
+        
+
+       
+    } 
+    @media (max-width: 1193px) { 
+        .parent_carINFO {
+            .ru{
+                width: 100%;
+                .children_carINFO1{
+                    color: aliceblue;
+                    width: 90%;
+                    font-size: 100%;
+                    padding-right: 2%;
+                    padding-left: 2%;
+    
+                    .XARAKTERISTIKI{
+                        margin-top: 10%;
+                        .XARAKTERISTIKI-item{
+                            margin-top: 2%;
+                            display: block;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    @media (max-width: 947px) {
+        width: 100%;
+        .parent_carINFO {
+            .ru{
+                width: 100%;
+                .children_carINFO1{
+                    color: aliceblue;
+                    width: 90%;
+                    font-size: 100%;
+                    padding-right: 2%;
+                    padding-left: 2%;
+    
+                    .XARAKTERISTIKI{
+                        margin-top: 10%;
+                        .XARAKTERISTIKI-item{
+                            margin-top: 2%;
+                            display: block;
+                        }
+                    }
+                }
+                .children_carINFO2{
+                    color: aliceblue;
+                    width: 90%;
+                    font-size: 100%;
+                    padding-right: 2%;
+                    padding-left: 2%;
+                    text-align: center;
+                    
+                    hr{
+                        background-color: gray;
+                        width: 100%;
+                        height: 1px;
+                        
+                    }
+                    ul{
+                        width: 100%;
+                        margin-left: 0;
+                        padding-left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            list-style-type: none;
+                            
+                            img{
+                                width: 70%;
+                            }
+                            
+                        }
+                        :hover{
+                            cursor: pointer;
+                        }
+                    }
+                    .children_carINFO3 {
+                        display: flex;
+                        flex-wrap: wrap;
+                        align-items: flex-start;
+                        justify-content: left;
+                        color: aliceblue;
+                        padding: 2%;
+                        cursor: pointer;
+                        .mashine-price3{
+                            color: gold;
+                            font-size: 130%;
+                            
+                        }
+                        .q{
+                            font-size: 130%;
+                        }
+                        
+                    }
+                    .children_carINFO_opisanye{
+                        color: aliceblue;
+                        width: 90%;
+                        padding-right: 2%;
+                        padding-left: 2%;
+                        font-size: 120%;
+                    }
+                    
+                }
+                
+            }
+            
+            
+        }
+        
+    }
+    @media (max-width: 935px) { 
+        .parent_carINFO {
+            .ru{
+                width: 100%;
+                .children_carINFO2{
+                    color: aliceblue;
+                    width: 90%;
+                    font-size: 100%;
+                    padding-right: 2%;
+                    padding-left: 2%;
+                    text-align: center;
+                    
+                    hr{
+                        background-color: gray;
+                        width: 100%;
+                        height: 1px;
+                        
+                    }
+                    ul{
+                        width: 100%;
+                        margin-left: 0;
+                        padding-left: 0;
+                        display: flex;
+                        flex-wrap: wrap;
+                        li{
+                            list-style-type: none;
+                            width: 40%;
+                            img{
+                                width: 70%;
+                            }
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+}
+
+

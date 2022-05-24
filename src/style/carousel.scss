@@ -1,0 +1,51 @@
+.parent-slider{
+    position:relative;
+    z-index: 4;
+    height: 100%;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: 100%;
+        border: 5px solid black;
+    }
+
+
+}
+.slider {
+	position:absolute;
+    z-index: 4;
+    width:90%;
+    height: 35%;
+	padding-top:38%;
+    display: flex;
+    justify-content: space-between;
+	text-align:center;
+    padding-left: 5%;
+    padding-right: 5%;
+    img{
+        width: 16%;
+        border: none;
+    }
+
+}
+.body-torgovy{
+    position:relative;
+    z-index: 4;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 7%;
+    width: 50%;
+    color: gold;
+    font-size: x-large;
+    .body-torgovy-img{
+        display: flex;
+        justify-content: space-between;
+        img{
+            width: 100%;
+        }
+    }
+}
+	
