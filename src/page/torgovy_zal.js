@@ -5,7 +5,11 @@ import carSTORE from '../store/carSTORE'
 import "../style/carousel.scss"
  
 const Torgovy_zal = () => {
-
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth',
+  });
   const [value, valueChange] = useState(0);
   const [perem, setPerem] = useState(0);
   return (

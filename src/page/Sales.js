@@ -5,6 +5,11 @@ import Header from '../component/Header';
 import carSTORE from '../store/carSTORE';
 
 const Saless = observer(() => {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth',
+  });
     let location = useParams();
     let num = location.id - 1
   return (
