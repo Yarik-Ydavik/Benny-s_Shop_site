@@ -3,6 +3,18 @@
     position: absolute;
     z-index: 0;
     background-image: url(../img/background.png);
+    @media (max-width:586px) {
+        width: 100%;
+        height: 100%;
+    }
+
+}
+.image{
+
+    @media (max-width:586px) {
+        width: 100%;
+        height: 100%;
+    }
 }
 .HEAD{
     width: 100%;
@@ -14,6 +26,12 @@
         display: flex;
         justify-content: space-between;
         font-size: x-large;
+        @media (max-width:716px) {
+            font-size: large;
+        }
+        @media (max-width:566px) {
+            font-size: 100%;
+        }
         .text1{
             font-family: 'Times New Roman', Times, serif;
             text-align: right;
@@ -175,17 +193,18 @@
         background-color: azure;
     }
 }
+
 @media (max-width: 595px){
     .adr-button{
         position: absolute;
         z-index: 2;
-        margin-top: 42%;
+        margin-top: 42.5%;
         margin-left: 7.5%;
         width: 80%;
-        height: 4%;
+        height: 3%;
         button{
             height: 60%;
-            font-size: 50%;
+            font-size: 40%;
             border: none;
             width: 18%;
         }
@@ -204,7 +223,7 @@
         margin-top: 43%;
         margin-left: 7.5%;
         width: 80%;
-        height: 3%;
+        height: 4%;
         button{
             height: 60%;
             font-size: 50%;

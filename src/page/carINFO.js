@@ -16,11 +16,6 @@ import li8 from "../img/li8.jpg";
 
 import { observer } from 'mobx-react-lite';
 const carINFO = observer(() => {
-  window.scrollTo({
-    top: 0,
-    left: 0,
-    behavior: 'smooth',
-  });
   function Home(){
     const params = useParams();
     return params.id

@@ -17,6 +17,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
+
 }
 .cars{
     font-size: x-large;
@@ -26,11 +27,13 @@
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 2%;
+
     .car{
         width: 27.2%;
         background-color: aliceblue;
         padding: 2%; 
         margin: 1%;
+        
         img{
             width: 100%;
         }
@@ -109,10 +112,16 @@
                 margin-bottom: 2%;
                 font-size: 130%;
                 color: gold;
+                @media (max-width:586px) {
+                    font-size: 100%;
+                }
             }
             .mashine-price{
                 color: gold;
                 font-size: 130%;
+                @media (max-width:586px) {
+                    font-size: 100%;
+                }
             }
         }
         .ru{
@@ -203,9 +212,15 @@
                     .mashine-price3{
                         color: gold;
                         font-size: 130%; 
+                        @media (max-width:586px) {
+                            font-size: 100%;
+                        }
                     }
                     .q{
                         font-size: 130%;
+                        @media (max-width:586px) {
+                            font-size: 100%;
+                        }
                     }
                     
                 }
@@ -215,6 +230,9 @@
                     padding-right: 2%;
                     padding-left: 2%;
                     font-size: x-large;
+                    @media (max-width:586px) {
+                        font-size: 100%;
+                    }
                 }
                 
             }
@@ -234,7 +252,7 @@
                     font-size: 100%;
                     padding-right: 2%;
                     padding-left: 2%;
-    
+                    
                     .XARAKTERISTIKI{
                         margin-top: 10%;
                         .XARAKTERISTIKI-item{
@@ -257,7 +275,12 @@
                     font-size: 100%;
                     padding-right: 2%;
                     padding-left: 2%;
-    
+                    @media (max-width:751px) {
+                        font-size: 80%;
+                    }
+                    @media (max-width:639px) {
+                        font-size: 70%;
+                    }
                     .XARAKTERISTIKI{
                         margin-top: 10%;
                         .XARAKTERISTIKI-item{
@@ -273,7 +296,12 @@
                     padding-right: 2%;
                     padding-left: 2%;
                     text-align: center;
-                    
+                    @media (max-width:751px) {
+                        font-size: 80%;
+                    }
+                    @media (max-width:639px) {
+                        font-size: 70%;
+                    }
                     hr{
                         background-color: gray;
                         width: 100%;
@@ -308,11 +336,22 @@
                         cursor: pointer;
                         .mashine-price3{
                             color: gold;
-                            font-size: 130%;
-                            
+                            font-size: 100%;
+                            @media (max-width:751px) {
+                                font-size: 80%;
+                            }
+                            @media (max-width:639px) {
+                                font-size: 70%;
+                            }
                         }
                         .q{
-                            font-size: 130%;
+                            font-size: 100%;
+                            @media (max-width:751px) {
+                                font-size: 80%;
+                            }
+                            @media (max-width:639px) {
+                                font-size: 70%;
+                            }
                         }
                         
                     }
@@ -321,7 +360,13 @@
                         width: 90%;
                         padding-right: 2%;
                         padding-left: 2%;
-                        font-size: 120%;
+                        font-size: 100%;
+                        @media (max-width:751px) {
+                            font-size: 80%;
+                        }
+                        @media (max-width:639px) {
+                            font-size: 70%;
+                        }
                     }
                     
                 }
